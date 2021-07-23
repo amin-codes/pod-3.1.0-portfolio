@@ -63,6 +63,31 @@ layout: page
   page-name: project
 ```
 
+## Add links to social medias
+
+Head to _data and fill out `social_media.yml`. Here is an example for your reference -
+
+```yaml
+- link: tel:+1 9976543210
+  class: fas fa-phone-square-alt
+
+- link: mailto:username@mail.com
+  class: fas fa-envelope
+
+- link: https://twitter.com/username
+  class: fab fa-twitter-square
+
+- link: https://linkedin.com/username
+  class: fab fa-linkedin
+
+- link: https://github.com/username
+  class: fab fa-github
+```
+
+Replace the links with your respective links. 
+
+Note - Please do not change any value in `class`. 
+
 ## Development
 
 If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
